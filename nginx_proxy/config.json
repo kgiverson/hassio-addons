@@ -17,11 +17,11 @@
     "schema": {
       "vhosts": [
               {"vhost": "str",
-                "remote": "str?",
+                "remote": "str",
                 "port": "str",
                 "default_server": "bool",
-                "certname": "str?",
-                "ssl_modern": "bool?"
+                "certname": "str",
+                "ssl_modern": "bool"
              }]
 	]
     },
